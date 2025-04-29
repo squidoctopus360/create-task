@@ -48,7 +48,6 @@ public class NewBehaviourScript : MonoBehaviour
     }
     void DrawWithMostArea()
     {
-        print(mesh.triangles[0]);
         foreach(int i in mesh.triangles)
         {
             print(i);
